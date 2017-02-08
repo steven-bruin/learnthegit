@@ -17,7 +17,7 @@ $ git rm test.txt版本库中删除该文件，同样需要commit
 $ ssh-keygen -t rsa -C "youremail@example.com"创建SSH Key
 $ git remote add origin git@github.com:michaelliao/learngit.git
 $ git push -u origin master推所有
-$ git push origin master  推最新
+$ git push origin master  推最新,master 可以改成远端分支
 $ git push origin :master 删除远端master分支
 $ git push --all origin 不管是否存在对应的远程分支，将本地的所有分支都推送到远程主机
 $ git push --force origin 即使远程的版本更新也会被覆盖
