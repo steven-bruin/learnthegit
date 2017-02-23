@@ -63,3 +63,6 @@ describe user; //查看user表的字段，然后确定密码字段的名称，�
 5.修改密码：UPDATE mysql.user SET authentication_string=PASSWORD(‘123456’) where User=‘root’; //将root用户密码改成 123456
 6.flush privileges;重启;sudo 那个窗口用exit关闭
 7.usr/local/mysql/bin/mysqld －u root -p，进入输新密码
+
+
+Linux 命令
